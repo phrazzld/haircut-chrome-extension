@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "Haircut",
+  "short_name": "haircut",
+  "description": "Make a professional chatbot from your LinkedIn.",
+  "version": "0.0.1",
+
+  "browser_action": {
+    "default_title": "Haircut"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+  "permissions": ["storage", "cookies", "*://*/*", "tabs"],
+
+  "icons": {
+    "16": "images/16.png",
+    "32": "images/32.png",
+    "48": "images/48.png",
+    "128": "images/128.png"
+  }
+}
